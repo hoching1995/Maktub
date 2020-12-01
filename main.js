@@ -15,9 +15,9 @@ function fetchData() {
             // json.Women.forEach(x => {
             //     makeCard(x);
             // });
-            makeCard(json.Man[0]);
+            makeCard(json.Man[1]);
             makeCard(json.Women[0]);
-            makeCard(json.Accessories[0]);
+            makeCard(json.Accessories[8]);
             makeCard(json.AppleProductCase[0]);
         });
 }
