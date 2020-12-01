@@ -1,0 +1,396 @@
+{
+    "Women": [{
+            "Id": "01",
+            "Productname": "Lung Bag",
+            "Price": "120",
+            "src": "./product/after post/lung bag 11-7-19/5File .JPG",
+            "herf": "lungBag.html",
+            "description": ["The classic Lung Bag with modern twist, greate for office and daily use. "],
+            "inCart": "0"
+        },
+        {
+            "Id": "02",
+            "Productname": "Leo Bag",
+            "Price": "120",
+            "src": "./product/after post/2-11-leo bag/18.JPG",
+            "herf": "leoBag.html",
+            "description": "",
+            "inCart": "0"
+        }, {
+            "Id": "03",
+            "Productname": "Bucket Bag",
+            "Price": "120",
+            "src": "product/after post/水桶/IMG_6477.JPG",
+            "herf": "bucketBag.html",
+            "description": ["Smooth, matte leather gives this bucket bag an even more luxe, sophisticated feel.", " Single adjustable shoulder strap Drawstring closure",
+                " Exterior features front logo print and allover leather exterior",
+                " Interior features 1 removable zip pouch",
+                " Approx. 9.5\" H x 9.75\" W x 5.25",
+                " Approx. 5\" W x 8\" H x 0.5\" D pouch",
+                " Approx. 21.5\" strap drop",
+                " Model’s height for scale: 5'9,"
+            ],
+            "color": ["black", "Green", "Tan", "Brown"],
+            "inCart": "0"
+
+        }, {
+            "Id": "04",
+            "Productname": " Long Wallet",
+            "Price": "120",
+            "src": "./product/after post/19-10-18 Wire wallet/ig/IMG_9467.JPG",
+            "herf": "walletwomen.html",
+            "description": ["Cash focused version of the classic mini-trucker wallet.",
+                "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+                "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+                " Full cash / note compartment",
+                "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+                "Hand stitched with Japanese poly cord",
+                "Japanese brass snap closure",
+                "With or without Japanese brass lanyard attachment (choose at checkout)",
+                "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+                "All items are crafted once ordered. See homepage for shipping times."
+            ],
+            "inCart": "0"
+        }, {
+            "Id": "05",
+            "Productname": " Midlenght Wallet",
+            "Price": "120",
+            "src": "./product/after post/2-9-19MOM WALLET/DSCF3073.JPG",
+            "herf": "midlenghtWallet.html",
+            "description": ["Cash focused version of the classic mini-trucker wallet.",
+                "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+                "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+                " Full cash / note compartment",
+                "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+                "Hand stitched with Japanese poly cord",
+                "Japanese brass snap closure",
+                "With or without Japanese brass lanyard attachment (choose at checkout)",
+                "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+                "All items are crafted once ordered. See homepage for shipping times."
+            ],
+            "inCart": "0"
+        }
+    ],
+    "Man": [{
+        "Id": "06",
+        "Productname": "Man Leo Bag",
+        "Price": "120",
+        "src": "product/after post/2-11-leo bag/22.JPG",
+        "herf": "leoBag.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "07",
+        "Productname": "The Photo Slot",
+        "Price": "120",
+        "src": "./product/after post/Derrick/1File .JPG",
+        "herf": "photoSlot.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "08",
+        "Productname": "The Basic",
+        "Price": "120",
+        "src": "./product/after post/5-2-19 Lung Wallet/1.JPG",
+        "herf": "basic.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "09",
+        "Productname": "Man Wallet1",
+        "Price": "120",
+        "src": "./product/after post/5-11-19 wallet lihkg/2File .JPG",
+        "herf": "Menwallet1.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "10",
+        "Productname": "Man Wallet2",
+        "Price": "120",
+        "src": "./product/after post/TAK GOR/7File .JPG",
+        "herf": "Menwallet2.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "11",
+        "Productname": "Man Wallet3",
+        "Price": "120",
+        "src": "product/after post/wallet jenny/5File .JPG",
+        "herf": "Menwallet3.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "12",
+        "Productname": "Man Wallet4",
+        "Price": "120",
+        "src": "./product/after post/manwallet/3File .JPG",
+        "herf": "Menwallet4.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "13",
+        "Productname": "Man Wallet5",
+        "Price": "120",
+        "src": "./product/after post/straightWallet/2File .JPG",
+        "herf": "Menwallet5.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "This model is sized between minimalist and short wallet and is best suited in the back pocket.",
+            "3 card slots (1 hidden) - Initially allows for 5 - 7 cards.",
+            " Full cash / note compartment",
+            "Crafted from Italian natural vegetable tanned leather (Waliper - Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Japanese brass snap closure",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 4.25\" H X Approx 3.5\" W X 0.5\" D",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }],
+    "AppleProductCase": [{
+        "Id": "14",
+        "Productname": "Iphone case",
+        "Price": "50",
+        "src": "./product/after post/Phone case/DSCF5651 2.JPG",
+        "herf": "iphoneCase.html",
+        "description": ["Avaible for Iphone 12 series , Iphone 11 series , Iphone 10 serise, and  Iphone 8 series ",
+            "Protect your iPhone with our newest iphone case ",
+            "We handmade all the cases and ensure it is perfect fit ",
+            "perfect protection with dual layer of soft rubber",
+            "it is light and smoth, great for daliy use"
+        ],
+        "color": ["Black", "Green", "Tan", "Brown", "Yellow", "White"],
+        "inCart": "0"
+    }, {
+        "Id": "15",
+        "Productname": "Macbook Case",
+        "Price": "120",
+        "src": "./product/after post/macbook pro/13File .JPG",
+        "herf": "macbookCase.html",
+        "description": ["Avaible for macbook pro /16/15/13 inch, macbook air, macbook, any custom size/ layer."],
+        "inCart": "0"
+    }, {
+        "Id": "16",
+        "Productname": "AirPods",
+        "Price": "50",
+        "src": "./product/after post/Airpods Case/DSCF5668 2.JPG",
+        "herf": "airPodsCase.html",
+        "description": ["10 color as options, a greate pretection for the AirPods you love, customs wrods avaible "],
+        "inCart": "0"
+    }, {
+        "Id": "17",
+        "Productname": "Cluth Bag",
+        "Price": "50",
+        "src": "./product/mouse pad and cluth bag/DSCF5347.JPG",
+        "herf": "cluthBag.html",
+        "description": ["A small flat bag without a handle, especially on formal occasions, custom sizes for your phone"],
+        "inCart": "0"
+    }],
+    "Accessories": [{
+        "Id": "18",
+        "Productname": "Coin Case",
+        "Price": "120",
+        "src": "./product/after post/9-2-19coins case /IMG_0282.JPG",
+        "herf": "coinCase.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "19",
+        "Productname": "Card Holder",
+        "Price": "120",
+        "src": "./product/after post/Pauline card holder/6File .JPG",
+        "herf": "cardHolder.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "20",
+        "Productname": "Watch Strap",
+        "Price": "120",
+        "src": "./product/after post/5-2-19 watch strap/IMG_0225.JPG",
+        "herf": "watchStrap.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "21",
+        "Productname": "Travel Accessories",
+        "Price": "120",
+        "src": "./product/after post/luggage tag and key holder/DSCF5723.JPG",
+        "herf": "travelAccessories.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "22",
+        "Productname": "Business card case",
+        "Price": "120",
+        "src": "./product/after post/1-1-19 巴打 business card holder/IMG_9801.JPG",
+        "herf": "bsCardCase.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "23",
+        "Productname": "Business card case1",
+        "Price": "120",
+        "src": "./product/after post/9-2-18 Card holder/IMG_9889.JPG",
+        "herf": "bsCardCase1.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "Classic five slot card case with \"floating\" top slot for better organization. ",
+            "Initially holds 5-7 cards initially, along with third folded notes.",
+            "Crafted from natural Italian leather (Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Edges hand burnished to a semi-glossy finish",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 2.85\" H X Approx 4.25\" W ",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "24",
+        "Productname": "Business card case2",
+        "Price": "120",
+        "src": "./product/after post/9-2-18 card holder with zipper/IMG_9623.JPG",
+        "herf": "bsCardCase2.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "Classic five slot card case with \"floating\" top slot for better organization. ",
+            "Initially holds 5-7 cards initially, along with third folded notes.",
+            "Crafted from natural Italian leather (Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Edges hand burnished to a semi-glossy finish",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 2.85\" H X Approx 4.25\" W ",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "25",
+        "Productname": "Passport Case",
+        "Price": "120",
+        "src": "./product/after post/5-2-19 Passport/1File .JPG",
+        "herf": "passPortCase.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "26",
+        "Productname": "watch strap",
+        "Price": "120",
+        "src": "./product/after post/watch/7File .JPG",
+        "herf": "watchStrap.html",
+        "description": "",
+        "inCart": "0"
+    }, {
+        "Id": "27",
+        "Productname": "Coin Case2",
+        "Price": "120",
+        "src": "./product/after post/coincase2/0File .JPG",
+        "herf": "coinCase2.html",
+        "description": ["Classic snap pouch - initially holds 6 to 8 cards and cash",
+            "Handcrafted from olive Italian leather (Pueblo)",
+            "Interior lined with French goat skin (Alran Chèvre)",
+            "Crafted from natural Italian leather (Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Edges hand burnished to a semi-glossy finish",
+            "DIMENSIONS: 2.85\" H X Approx 4.25\" W ",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "28",
+        "Productname": "Coin Case3",
+        "Price": "120",
+        "src": "./product/after post/coincase3/2File .JPG",
+        "herf": "coinCase3.html",
+        "description": ["Classic snap pouch - initially holds 6 to 8 cards and cash",
+            "Handcrafted from olive Italian leather (Pueblo)",
+            "Interior lined with French goat skin (Alran Chèvre)",
+            "Crafted from natural Italian leather (Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Edges hand burnished to a semi-glossy finish",
+            "DIMENSIONS: 2.85\" H X Approx 4.25\" W ",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "29",
+        "Productname": "Business Card Case3",
+        "Price": "120",
+        "src": "./product/after post/bscardholder2/3File .JPG",
+        "herf": "businessCardCase3.html",
+        "description": ["Cash focused version of the classic mini-trucker wallet.",
+            "Classic five slot card case with \"floating\" top slot for better organization. ",
+            "Initially holds 5-7 cards initially, along with third folded notes.",
+            "Crafted from natural Italian leather (Buttero)",
+            "Hand stitched with Japanese poly cord",
+            "Edges hand burnished to a semi-glossy finish",
+            "With or without Japanese brass lanyard attachment (choose at checkout)",
+            "DIMENSIONS: 2.85\" H X Approx 4.25\" W ",
+            "All items are crafted once ordered. See homepage for shipping times."
+        ],
+        "inCart": "0"
+    }, {
+        "Id": "30",
+        "Productname": "Glasses Case",
+        "Price": "120",
+        "src": "./product/after post/glasses case/0File .JPG",
+        "herf": "glassesCase.html",
+        "description": "",
+        "inCart": "0"
+    }]
+}

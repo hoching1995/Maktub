@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktub</title>
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="./ miniIcon.png" sizes="32x32">
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f254868048.js" crossorigin="anonymous"></script>
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="./Style.css">
+    <!-- productlist -->
+    <link rel="productlist" href="./productspecs.json">
+    </mate>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./watermark.png" alt="logo" />
+        </div>
+        <div class="container">
+            <div class="nav__links">
+                <div class="btn-group">
+                    <!-- <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Small button
+                    </button> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="man.html">Man</a></li>
+                    <li><a href="AppleProduct.html">Apple Product Case</a></li>
+                    <li><a href="featuer.html">Accessories</a></li>
+                    <div class="search-caja">
+                        <input type="ctext" id="SearchInput" class="buscar-txt" placeholder="Search..." />
+                        <i class="fas fa-search"></i>
+                        <div class="suggestions">
+                            <!-- js search-->
+
+                        </div>
+                    </div>
+
+                    <div class="cart-btn">
+                        <div id="cart">
+                            <!-- fa-lg means 33% incress -->
+                            <a href="cart.html"><span id="cart-count" class="fa-stack fa-lg has-badge" data-count="0"> 
+                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                          </span>
+                                 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="checkoutform">
+        <div class="checkout-title">
+            <h2>Checkout</h2>
+        </div>
+        <div class="row">
+            <div class="col-75">
+                <div class="checkout-container">
+                    <form action="/action_page.php">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <h3>Billing Address</h3>
+                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="checkout-text" id="fname" name="firstname" placeholder="John M. Doe">
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="checkout-text" id="email" name="email" placeholder="john@example.com">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="checkout-text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                <input type="checkout-text" id="city" name="city" placeholder="New York">
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="state">State</label>
+                                        <input type="checkout-text" id="state" name="state" placeholder="NY">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="zip">Zip</label>
+                                        <input type="checkout-text" id="zip" name="zip" placeholder="10001">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-50">
+                                <h3>Payment</h3>
+                                <label for="fname">Accepted Cards</label>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa"></i>
+                                    <i class="fa fa-cc-amex"></i>
+                                    <i class="fa fa-cc-paypal"></i>
+                                    <i class="fa fa-cc-discover"></i>
+                                    <i class="fab fa-google-pay"></i>
+                                    <i class="fab fa-apple-pay"></i>
+                                </div>
+                                <label for="cname">Name on Card</label>
+                                <input type="checkout-text" id="cname" name="cardname" placeholder="John More Doe">
+                                <label for="ccnum">Credit card number</label>
+                                <input type="checkout-text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                <label for="expmonth">Exp Month</label>
+                                <input type="checkout-text" id="expmonth" name="expmonth" placeholder="September">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="expyear">Exp Year</label>
+                                        <input type="checkout-text" id="expyear" name="expyear" placeholder="2018">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="cvv">CVV</label>
+                                        <input type="checkout-text" id="cvv" name="cvv" placeholder="352">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+
+                        <div class="single-product-page-add-to-cart">
+                            <a href="#" id="${id}AddToCart" class="btn btn-primary">Confirm</a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-25">
+
+                <div class="checklist-container">
+                    <p><a href="#">IPHONE</a> <span class="price">$1200</span></p>
+                    <p><a href="#">SAMSUNG</a> <span class="price">$500</span></p>
+                    <p><a href="#">OPPO</a> <span class="price">$400</span></p>
+                    <p><a href="#">HUAWEI</a> <span class="price">$200</span></p>
+                    <!-- <hr> -->
+                    <p class="check-total">Total
+                        <span class="price"><b>$2600</b></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./chekoutpage.js"></script>
+
+</html>

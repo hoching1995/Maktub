@@ -1,0 +1,123 @@
+{
+    "Women": [{
+            "Id": "01",
+            "Productname": "Lung Bag",
+            "Price": "120",
+            "src": "./product/lung bag 11-7-19/5.JPG",
+            "herf": "lungBag.html",
+            "description": ""
+        },
+        {
+            "Id": "02",
+            "Productname": "Leo Bag",
+            "Price": "120",
+            "src": "./product/after post/2-11-leo bag/18.JPG",
+            "herf": "leoBag.html",
+            "description": ""
+        }, {
+            "Id": "03",
+            "Productname": "Bucket Bag",
+            "Price": "120",
+            "src": "product/after post/水桶/IMG_6477.JPG",
+            "herf": "bucketBag.html",
+            "description": ""
+
+        }, {
+            "Id": "04",
+            "Productname": "Wallet",
+            "Price": "120",
+            "src": "./product/after post/19-10-18 Wire wallet/ig/IMG_9467.JPG",
+            "herf": "walletwomen.html",
+            "description": ""
+        }
+    ],
+    "Man": [{
+        "Id": "05",
+        "Productname": "Leo Bag",
+        "Price": "120",
+        "src": "product/after post/2-11-leo bag/22.JPG",
+        "herf": "leoBag.html",
+        "description": ""
+    }, {
+        "Id": "06",
+        "Productname": "The Photo Slot",
+        "Price": "120",
+        "src": "./product/after post/Derrick/IMG_7532.JPG",
+        "herf": "photoSlot.html",
+        "description": ""
+    }, {
+        "Id": "07",
+        "Productname": "The Basic",
+        "Price": "120",
+        "src": "./product/after post/5-2-19 Lung Wallet/IMG_9857.JPG",
+        "herf": "basic.html",
+        "description": ""
+    }, {
+        "Id": "08",
+        "Productname": "Wallets",
+        "Price": "120",
+        "src": "./product/after post/巴打2017年2月26日/whole/IMG_6852.JPG",
+        "herf": "wallets.html",
+        "description": ""
+    }],
+    "AppleProductCase": [{
+        "Id": "09",
+        "Productname": "Iphone case",
+        "Price": "120",
+        "src": "./product/after post/Phone case/DSCF5651 2.JPG",
+        "herf": "iphoneCase.html",
+        "description": ""
+    }, {
+        "Id": "10",
+        "Productname": "Macbook Case",
+        "Price": "120",
+        "src": "./product/after post/macbook pro 2017-9-7 Zing/IMG_7877.JPG",
+        "herf": "macbookCase.html",
+        "description": ""
+    }, {
+        "Id": "11",
+        "Productname": "AirPods",
+        "Price": "120",
+        "src": "./product/after post/Airpods Case/DSCF5668 2.JPG",
+        "herf": "airPodsCase.html",
+        "description": ""
+    }, {
+        "Id": "12",
+        "Productname": "Cluth Bag",
+        "Price": "120",
+        "src": "./product/mouse pad and cluth bag/DSCF5347.JPG",
+        "herf": "cluthBag.html",
+        "description": ""
+    }],
+    "Accessories": [{
+        "Id": "13",
+        "Productname": "Coin Case",
+        "Price": "120",
+        "src": "./product/after post/9-2-19coins case /IMG_0282.JPG",
+        "herf": "coinCase.html",
+        "description": ""
+    }, {
+        "Id": "14",
+        "Productname": "Card Holder",
+        "Price": "120",
+        "src": "./product/after post/20-1-19 Long business card holder/IMG_9840.JPG",
+        "herf": "cardHolder.html",
+        "description": ""
+    }, {
+        "Id": "15",
+        "Productname": "Watch Strap",
+        "Price": "120",
+        "src": "./product/after post/5-2-19 watch strap/IMG_0225.JPG",
+        "herf": "watchStrap.html",
+        "description": ""
+    }, {
+        "Id": "16",
+        "Productname": "Travel Accessories",
+        "Price": "120",
+        "src": "./product/after post/luggage tag and key holder/DSCF5723.JPG",
+        "herf": "travelAccessories.html",
+        "description": ""
+
+    }]
+}
+
