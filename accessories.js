@@ -22,7 +22,13 @@ function makeCard(item) {
     var productname = item.Productname;
     var price = item.Price;
     var root = document.getElementById('card-root');
-    var description = "Some quick example text to build on the card title and make up the bulk of the card's content."
+    var description = ""
+    if (item.description.length >= 3) {
+        description = item.description[1] + item.description[2];
+    } else {
+        description = "Some quick example text to build on the card title and make up the bulk of the card's content."
+        console.log(item.description.length)
+    }
     div.innerHTML =
         `<div class="card" style="width: 18rem;">
         <img class="card-img-top" src="${item.src}" alt="Card image cap">

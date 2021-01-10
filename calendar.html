@@ -8,6 +8,9 @@
     <!-- icon -->
     <link rel="icon" type="image/png" href="./ miniIcon.png" sizes="32x32">
     <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <!--Font-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
@@ -16,6 +19,8 @@
     <link rel="stylesheet" href="./Style.css">
     <!-- productlist -->
     <link rel="productlist" href="./productspecs.json">
+    <script src="./calendar.js"></script>
+
 </head>
 
 <body>
@@ -26,9 +31,6 @@
         <div class="container">
             <div class="nav__links">
                 <div class="btn-group">
-                    <!-- <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Small button
-                    </button> -->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="women.html">Women</a></li>
                     <li><a href="man.html">Man</a></li>
@@ -53,37 +55,64 @@
                                  </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-        </div>
     </header>
-    <!-- header-->
+
     <main>
-        <div class="small-container">
-
-            <div class="col-2">
-                <!-- <img src="./product/after post/水桶/IMG_6395.JPG" alt="" width="400%" id="product-img"> -->
-
+        <div class="calendar">
+            <div class="month">
+                <ul>
+                    <li><button class="prevMonthBtn" id="prevMonthBtn">&#10094;</button></li>
+                    <li><button class="nextMonthBtn" id="nextMonthBtn">&#10095;</button></li>
+                    <li id="monthCalendar">
+                        August<br>
+                    </li>
+                    <span id="yearCalendar" class="yearCalendar" style="font-size:18px">2017</span>
+                </ul>
             </div>
 
-            <div class="single-product-page-text">
-                <!-- js -->
+            <ul class="weekdays">
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+                <li>Su</li>
+            </ul>
+            <div id="days_div">
+
             </div>
+            </ul>
+            <div class="Calendar_discription">
+                <div class="Calendar_discription_item">
+                    <h6><span class="active_discription">1</span>Today</h6>
+                </div>
+                <div class="Calendar_discription_item">
+                    <h6><span class="booked_discription">1</span>Booked</h6>
+                </div>
+            </div>
+
         </div>
-
-    </main>
-    <!-- js -->
-    <script src="./coinCase.js"></script>
-    <!-- <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetchData();
-        });
-    </script> -->
-    <footer></footer>
-
-
-
 </body>
+
+</html>
+
+
+</main>
+<footer class="footer ">
+
+    <div class="footer__social ">
+        <a href="https://www.instagram.com/maktub_leather/?hl=en" class="footer__icon "> <i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/Maktubleather" class="footer__icon "> <i class="fab fa-facebook-square"></i></a>
+
+    </div>
+</footer>
+<script src="./calendar.js"></script>
+</body>
+
 
 </html>

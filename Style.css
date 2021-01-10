@@ -10,6 +10,7 @@
     
      :root {
         --primaryColor: #24252A;
+        --secondColor: #18191c;
         --cardColor: #000000;
     }
     
@@ -90,6 +91,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 20px;
+        list-style-type: none;
     }
     
     .nav__links {
@@ -119,8 +121,17 @@
     
     .card {
         background-color: var(--cardColor);
+        height: 510px;
     }
     /* all product img */
+    
+    .card-text {
+        height: 130px;
+    }
+    
+    .price {
+        height: 10px;
+    }
     
     .Gallery img {
         width: 350px;
@@ -333,6 +344,10 @@
         margin-right: -16px;
         max-width: 100%;
     }
+    
+    span.itemProductName {
+        width: 100px;
+    }
     /* checkout */
     /*     
     h2 {
@@ -404,13 +419,18 @@
         font-size: 24px;
     }
     
-    hr {
+    .btn:hover {
+        background-color: #45a049;
+    }
+    
+    */ hr {
         border: 1px solid lightgrey;
     }
     
     span.price {
+        padding-top: 13px;
         float: right;
-        font-size: 18px;
+        font-size: 12px;
     }
     
     .check-out-total {
@@ -431,6 +451,167 @@
     
     .checklist-container {
         padding: 3%;
+    }
+    /* calendar  */
+    
+    .calendar {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    
+    span.yearCalendar {
+        color: white;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    /* body {
+        font-family: Verdana, sans-serif;
+    } */
+    
+    .month {
+        padding: 50px 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        width: 100%;
+        background: var(--secondColor);
+        text-align: center;
+    }
+    
+    .month ul {
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .month ul li {
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .prevMonthBtn,
+    .nextMonthBtn {
+        background-color: transparent;
+        border: none;
+        background: none;
+        color: white;
+    }
+    
+    .prevMonthBtn {
+        float: left;
+    }
+    
+    .nextMonthBtn {
+        float: right;
+    }
+    
+    .weekdays {
+        margin: 0;
+        padding: 15px 0;
+        background-color: #ddd;
+    }
+    
+    .weekdays li {
+        display: inline-block;
+        width: 13%;
+        color: #666;
+        text-align: center;
+    }
+    
+    .yearCalendar {
+        color: white;
+    }
+    
+    .days {
+        padding: 10px 0;
+        background: #eee;
+        margin: 0;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    
+    span.passeddate {
+        color: gray;
+    }
+    
+    .days li {
+        list-style-type: none;
+        display: inline-block;
+        width: 7%;
+        text-align: center;
+        margin: 30px;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .days li .active {
+        padding: 5px;
+        background: #1abc9c;
+        color: white !important
+    }
+    
+    .days li .booked {
+        padding: 5px;
+        background: red;
+        color: red !important
+    }
+    
+    .Calendar_discription {
+        color: white !important;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Calendar_discription_item {
+        padding: 5%;
+    }
+    
+    .active_discription {
+        background: #1abc9c;
+        color: #1abc9c !important;
+        padding: 5px;
+        margin-right: 20px;
+    }
+    
+    .booked_discription {
+        background: red;
+        color: red !important;
+        padding: 5px;
+        margin-right: 20px;
+    }
+    /* footer */
+    
+    .footer {
+        /* background-color: var(--scolorecond-); */
+        color: #fff;
+        text-align: center;
+        font-weight: var(--font-semi);
+        padding: 2rem 0;
+    }
+    
+    .footer__title {
+        font-size: 2rem;
+        margin-bottom: var(--mb-4);
+    }
+    
+    .footer__social {
+        margin-bottom: var(--mb-4);
+    }
+    
+    .footer__icon {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 0 var(--mb-2);
+        padding: 2%;
+    }
+    
+    .sub-section2 {
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     @media screen and (max-width: 1400px) {
@@ -667,8 +848,17 @@
             flex-wrap: column wrap;
         }
         /* the sub image size  */
+        h1 {
+            font-size: xx-large;
+        }
+        h2 {
+            font-size: large;
+        }
+        h3 {
+            font-size: x-large;
+        }
         h4 {
-            font-size: small;
+            font-size: large;
             ;
         }
         div.discription-txt {
@@ -703,43 +893,5 @@
             margin-top: 20px;
             margin-left: 10px;
             margin-right: 10px;
-        }
-        .col-50 {
-            font-size: small;
-        }
-        .checkout-container,
-        .checklist-container {
-            background-color: #cfcccc85;
-            padding: 2px 13px 10px 10px;
-            border: 1px solid lightgrey;
-            border-radius: 3px;
-        }
-        input[type=checkout-text] {
-            margin-bottom: 5px;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-        label {
-            margin-bottom: 10px;
-            display: block;
-        }
-        .icon-checkout-container,
-        .checklist-container {
-            margin-bottom: 20px;
-            padding: 7px 0;
-            font-size: 24px;
-        }
-        hr {
-            border: 1px solid lightgrey;
-        }
-        span.price {
-            float: right;
-            font-size: 13px;
-        }
-        .check-out-total {
-            border-top: 1px solid black;
-            padding-top: 3%;
-            font-size: 13px;
         }
     }

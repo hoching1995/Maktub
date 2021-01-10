@@ -5,7 +5,11 @@
             "Price": "120",
             "src": "./product/after post/lung bag 11-7-19/5File .JPG",
             "herf": "lungBag.html",
-            "description": ["The classic Lung Bag with modern twist, greate for office and daily use. "],
+            "description": ["The classic Lung Bag with modern twist, greate for office and daily use. ",
+                "The Executive Business Bag is constructed of premium full grain vintage cowhide leather ",
+                "and features a flap design with a secure zipper entry to the main section. ",
+                "Main compartment has a divided section with padded computer area ", "and pockets for phone, cards, pens and more."
+            ],
             "inCart": "0"
         },
         {
@@ -14,7 +18,11 @@
             "Price": "120",
             "src": "./product/after post/2-11-leo bag/18.JPG",
             "herf": "leoBag.html",
-            "description": "",
+            "description": ["The ultimate business accessory makes hard work look easy. ", "Our sophisticated Computer Brief in smooth,",
+                "navigator leather combines style and function for travel and daily use. ",
+                "The longer shoulder strap is removable,",
+                "adjustable and is fit with a subtle leather pad for comfort and ease."
+            ],
             "inCart": "0"
         }, {
             "Id": "03",
@@ -77,7 +85,11 @@
         "Price": "120",
         "src": "product/after post/2-11-leo bag/22.JPG",
         "herf": "leoBag.html",
-        "description": "",
+        "description": ["The classic Lung Bag with modern twist, greate for office and daily use. ",
+            "The Executive Business Bag is constructed of premium full grain vintage cowhide leather ",
+            "and features a flap design with a secure zipper entry to the main section. ",
+            "Main compartment has a divided section with padded computer area ", "and pockets for phone, cards, pens and more."
+        ],
         "inCart": "0"
     }, {
         "Id": "07",

@@ -33,7 +33,7 @@ function displayCart() {
             <div class ="product-incart" id="${item.Id}" >
             <ion-icon class="closeButton" name="close-circle" id="${item.Id}"></ion-icon>
             <img src="${item.src}">
-            <span>${item.Productname}</span>
+            <span class="itemProductName">${item.Productname}</span>
         </div>
         <div class="price-incart">$${item.Price}</div>
         <div class="quantity">
